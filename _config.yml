@@ -1,0 +1,11 @@
+theme: jekyll-theme-leap-day
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+title: AWS Certified SysOps Administrator - Associate (SOA-C01) Exam Notes
+description: AWS Certified SysOps Notes
+nav_order: 4
