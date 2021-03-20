@@ -67,3 +67,17 @@
 - Patch manager + Maintenance Window: path OS
 - Patch manager: gives compliance
 - State manager: ensures that instances are in a consistent state (compliance)
+
+## AWS Systems Manager Session Manager
+
+- Allows to start a secure shell on a VM
+- **Does not use SSHe access and bastion hosts**
+- Only works for EC2 for now
+- Log actions done through secure shells to S3 and CloudWatch Logs
+- IAM permissions: access SSM + write to S3 + write to CloudWatch
+- CloudTrail can intercept StartSessions events
+- AWS Secure Shell compared to SSH:
+    - No need to open port 22 at all anymore
+    - No need fot a bastion host
+    - All commands are logged to S3/CloudWatch
+    - Access to Secure Shell is done through User IAM, not SSH keys
