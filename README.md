@@ -9,3 +9,4 @@
 2. Compute
     - [EC2 - Amazon Elastic Compute](2-compute/ec2.md)
     - [SSM - AWS Systems Manager](2-compute/ssm.md)
+    - [EC2 High Availability and Scalability - Load Balancers and Auto Scaling Groups](2-compute/lb.md)
