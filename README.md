@@ -11,3 +11,5 @@
     - [SSM - AWS Systems Manager](2-compute/ssm.md)
     - [EC2 High Availability and Scalability - Load Balancers and Auto Scaling Groups](2-compute/lb.md)
     - [Deployment Automation - Elastic Beanstalk](2-compute/eb.md)
+3. Storage
+    - [EC2 Storage and Data Management - EBS and EFS](3-storage/ec2-storage.md)
