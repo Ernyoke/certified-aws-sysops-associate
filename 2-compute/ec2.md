@@ -59,7 +59,7 @@
         - Wait for a few minutes before requesting again
         - If more than once instance is requested, we can break down the request by creating the instances one by one
         - If urgent, submit a request for a different instance type and upgrade it afterwards
-- **# Instance terminates immediately**:
+- **# Instance terminates immediately** (the instance goes from the *pending* state to the *terminated* state): 
     - EBS volume limit is reached
     - EBS snapshot is corrupt
     - The root EBS volume is encrypted and we don't have permission to access the KMS key for decryption
