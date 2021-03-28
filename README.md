@@ -14,3 +14,5 @@
 3. Storage
     - [EC2 Storage and Data Management - EBS and EFS](3-storage/ec2-storage.md)
     - [Amazon S3](3-storage/s3.md)
+4. Infrastructure as Code
+    - [CloudFormation](4-iac/cloudformation.md)
