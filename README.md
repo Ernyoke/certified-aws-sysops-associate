@@ -16,3 +16,5 @@
     - [Amazon S3](3-storage/s3.md)
 4. Infrastructure as Code
     - [CloudFormation](4-iac/cloudformation.md)
+5. Monitoring and Audit
+    - [CloudWatch](5-audit/cloudwatch.md)
