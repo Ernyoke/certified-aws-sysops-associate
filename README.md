@@ -23,3 +23,5 @@
     - [AWS Organizations](6-aws-account-management/aws-organizations.md)
     - [AWS Service Catalog](6-aws-account-management/aws-service-catalog.md)
     - [Cost Management](6-aws-account-management/cost-management.md)
+7. Security
+    - [Shared Responsibility Model](7-security/shared-responsibility-model.md)
