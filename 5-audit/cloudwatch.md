@@ -88,3 +88,62 @@
     ```
     aws cloudwatch set-alarm-state --alarm-name "name" --state-values ALARM --state-reason "testing"
     ```
+
+## CloudWatch Events
+
+- Source + Rule => Target should change in some ways
+- Schedule: Cron jobs
+- Event Pattern: rule to react to a service doing something, example: CodePipeline state change
+- CloudWatch Events can trigger Lambda Functions, can send notifications to SNS, SQS, Kinesis Messages
+- A event creates a small JSON document to give information about the change
+
+## CloudTrail
+
+- Provides governance, compliance and audit for an AWS account
+- CloudTrail is enabled by default!
+- Provides a history of events/API calls made within an AWS account
+- It can put logs into CloudWatch Logs
+- If a resource is deleted, we have to look into CloudTrail first
+- CloudTrails shows the past 90 days of activity
+- The default UI only shows create, modify and delete events
+- CloudTrail Trail features:
+    - Provides detailed list of all events
+    - Ability to store these events in S3 for further analysis
+    - It can be region specific or global
+- CloudTrail Logs have SSE-S3 encryption when placed into S3
+
+## Config
+
+- Helps with audit and compliance on AWS resources
+- Helps record configurations and changes over time
+- Helps record compliance over time
+- Config offers the possibility of storing Config data into S3, which allows to be queried by Athena
+- We can receive alerts (SNS notification) for any changes
+- Config is a per-region service
+- Can be aggregated across regions and accounts
+
+## Config Rules
+
+- Config offers managed rules (over 75)
+- We can make custom rules and define an AWS Lambda for it
+- Rules can be evaluated based on the following triggers:
+    - For each config change
+    - At regular time intervals
+- Pricing:
+    - No free tier
+    - 2$ USD per active rule per region per month
+
+## CloudWatch vs CloudTrails vs Config
+
+- CloudWatch:
+    - Performance monitoring and dashboards
+    - Events and alerting
+    - Log aggregation and analysis
+- CloudTrail:
+    - Record API calls made within an account
+    - We can define trails for specific resources
+    - It is a global service
+- Config:
+    - Records configuration changes
+    - Evaluates resources against compliance rules
+    - Provides timelines of configuration changes and compliance

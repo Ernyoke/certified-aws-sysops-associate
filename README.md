@@ -17,4 +17,4 @@
 4. Infrastructure as Code
     - [CloudFormation](4-iac/cloudformation.md)
 5. Monitoring and Audit
-    - [CloudWatch](5-audit/cloudwatch.md)
+    - [CloudWatch, CloudTrail and Config](5-audit/cloudwatch.md)
