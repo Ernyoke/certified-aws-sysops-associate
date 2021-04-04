@@ -18,3 +18,8 @@
     - [CloudFormation](4-iac/cloudformation.md)
 5. Monitoring and Audit
     - [CloudWatch, CloudTrail and Config](5-audit/cloudwatch.md)
+6. Account Management
+    - [AWS Status - Service Health Dashboard](6-aws-account-management/service-health.md)
+    - [AWS Organizations](6-aws-account-management/aws-organizations.md)
+    - [AWS Service Catalog](6-aws-account-management/aws-service-catalog.md)
+    - [Cost Management](6-aws-account-management/cost-management.md)
