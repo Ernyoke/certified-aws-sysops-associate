@@ -69,3 +69,4 @@
     - These credentials come with a predefined IAM policy stating their permissions
 - Examples:
     - Provide temporary access to write to S3 bucket using Facebook login
+    
