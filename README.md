@@ -32,3 +32,4 @@
     - [Trusted Advisor](7-security/trusted-advisor.md)
     - [Encryption](7-security/encryption.md)
     - [Identity](7-security/identity.md)
+    - [AWS Compliance Frameworks](7-security/compliance.md)
