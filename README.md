@@ -23,5 +23,11 @@
     - [AWS Organizations](6-aws-account-management/aws-organizations.md)
     - [AWS Service Catalog](6-aws-account-management/aws-service-catalog.md)
     - [Cost Management](6-aws-account-management/cost-management.md)
-7. Security
+7. Security and Audit
     - [Shared Responsibility Model](7-security/shared-responsibility-model.md)
+    - [DDoS Protection](7-security/ddos.md)
+    - [AWS Inspector](7-security/inspector.md)
+    - [Logging in AWS](7-security/logging.md)
+    - [GuardDuty](7-security/guardduty.md)
+    - [Trusted Advisor](7-security/trusted-advisor.md)
+    - [Encryption](7-security/encryption.md)
