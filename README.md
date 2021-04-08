@@ -33,3 +33,5 @@
     - [Encryption](7-security/encryption.md)
     - [Identity](7-security/identity.md)
     - [AWS Compliance Frameworks](7-security/compliance.md)
+8. Networking
+    - [Route 53](8-networking/route53)
