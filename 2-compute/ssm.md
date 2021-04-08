@@ -71,7 +71,7 @@
 ## AWS Systems Manager Session Manager
 
 - Allows to start a secure shell on a VM
-- **Does not use SSHe access and bastion hosts**
+- **Does not use SSH access and bastion hosts**
 - Only works for EC2 for now
 - Log actions done through secure shells to S3 and CloudWatch Logs
 - IAM permissions: access SSM + write to S3 + write to CloudWatch
