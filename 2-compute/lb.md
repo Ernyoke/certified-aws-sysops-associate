@@ -229,6 +229,46 @@
         2. Create a CloudWatch alarm to react to low/high values
         3. Use the CloudWatch alarm as the scaling policy for ASG
 
+## ASG - Types of Scaling
+
+- Scheduled scaling:
+    - Scaling based on a schedule allows us to scale the application ahead of know load changes
+- Dynamic scaling:
+    - ASG enables us to follow the demand curve for our application closely, reducing the need to manually provision instances
+    - ASG can automatically adjust the number of EC2 instances as needed to maintain a target
+- Predictive scaling:
+    - ASG uses machine learning to schedule the right number of EC2 instances in anticipation of traffic changes
+
+## ASG Scaling Policies
+
+- **Target Tracking Scaling**
+    - Most simple and easy to setup
+    - Example: we want the average ASG CPU to stay around 40%
+- **Simple/Step Scaling**
+    - Example: 
+        - When a CloudWatch alarm is triggered (example average CPU > 70%), then add 2 units
+        - When a CloudWatch alarm is triggered (example average CPU < 30%), then remove 1 unit
+- **Scheduled Actions**
+    - Can be used if we can anticipate scaling based on known usage patterns
+    - Example: increase the min capacity to 10 at 5 PM on Fridays
+
+### Scaling Cool-downs
+
+- The cool-down period helps to ensure that our ASG doesn't launch or terminate additional instances before the previous scaling activity takes effect
+- In addition to default cool-down for ASG we can create cool-downs that apply to specific *simple scaling policy*
+- A scaling-specific cool-down overrides the default cool-down period
+- Common use case for scaling-specific cool-downs is when a scale-in policy terminates instances based in a criteria or metric. Because this policy terminates instances, an ASG needs less time to determine wether to terminate additional instances
+- If the default cool-down period of 300 seconds is too long, we can reduce costs by applying a scaling-specific cool-down of 180 seconds for example
+- If our application is scaling up and down multiple times each hour, we can modify the ASG cool-down timers and the CloudWatch alarm period that triggers the scale
+
+## ASG Scaling Termination Policies
+
+1. Determine which AZ hast the most instances
+2. Determinate which instance to terminate so as to align the remaining instances to the allocation strategy for the On-Demand or Spot instances
+3. Determine whether any of the instances uses the oldest launch template
+4. Determine whether any of the instances uses the oldest launch configuration
+5. If there are multiple unprotected instances to terminate, determine which is closest to the next billing hour
+
 ## ASG Summary
 
 - Scaling policies can be based on CPU, Network or a custom metric even
