@@ -34,4 +34,5 @@
     - [Identity](7-security/identity.md)
     - [AWS Compliance Frameworks](7-security/compliance.md)
 8. Networking
-    - [Route 53](8-networking/route53)
+    - [Route 53](8-networking/route53.md)
+    - [Networking - VPC](8-networking/vpc.md)
