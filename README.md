@@ -1,5 +1,9 @@
 # certified-aws-sysops-associate
 
+## Warning
+
+- This notes were created for the older **SysOps Associate Exam (SOA-C01)**. This exam is now discontinued, being replaced by the newer SOA-C02 exam. While these notes can be used for the newer exam, there are may be some AWS products which are not documented here.
+
 ## Table of Contents
 
 1. Introduction
@@ -36,3 +40,15 @@
 8. Networking
     - [Route 53](8-networking/route53.md)
     - [Networking - VPC](8-networking/vpc.md)
+
+## Credits
+
+- These notes are based on the Ultimate [Ultimate AWS Certified SysOps Administrator Associate](https://www.udemy.com/course/ultimate-aws-certified-sysops-administrator-associate/) course by Stephane Maarek. This course was revised for SOA-C02 exam after these notes were created, so I recommend purchasing it
+
+## My other AWS Certification Notes
+
+- [AWS Certified Developer – Associate (DVA-C01)](https://github.com/Ernyoke/certified-aws-developer-associate-notes)
+- [AWS Certified Solutions Architect – Associate (SAA-C02)](https://github.com/Ernyoke/certified-aws-solutions-architect-associate)
+- [AWS Certified SysOps – Associate (SOA-C01)](https://github.com/Ernyoke/certified-aws-sysops-associate)
+- [AWS Certified DevOps Engineer – Professional (DOP-C01)](https://github.com/Ernyoke/certified-aws-devops-professional)
+- [AWS Certified Solutions Architect – Professional (SAP-C01)](https://github.com/Ernyoke/certified-aws-solutions-architect-professional)
