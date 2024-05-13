@@ -1,8 +1,9 @@
 # certified-aws-sysops-associate
 
-## Warning
+## WARNING
 
-- This notes were created for the older **SysOps Associate Exam (SOA-C01)**. This exam is now discontinued, being replaced by the newer SOA-C02 exam. While these notes can be used for the newer exam, there are may be some AWS products which are not documented here.
+The content of this repository is out of date with the current requirements for SysOps Associate Exam exam. Furthermore, certain notes contain information that is not accurate anymore.
+**Use this repository with discretion!**
 
 ## Table of Contents
 
@@ -44,10 +45,3 @@
 ## Credits
 
 - These notes are based on the Ultimate [Ultimate AWS Certified SysOps Administrator Associate](https://www.udemy.com/course/ultimate-aws-certified-sysops-administrator-associate/) course by Stephane Maarek. This course was revised for SOA-C02 exam after these notes were created, so I recommend purchasing it
-
-## My other AWS Certification Notes
-
-- [AWS Certified Developer – Associate (DVA-C01)](https://github.com/Ernyoke/certified-aws-developer-associate-notes)
-- [AWS Certified Solutions Architect – Associate (SAA-C02)](https://github.com/Ernyoke/certified-aws-solutions-architect-associate)
-- [AWS Certified DevOps Engineer – Professional (DOP-C01)](https://github.com/Ernyoke/certified-aws-devops-professional)
-- [AWS Certified Solutions Architect – Professional (SAP-C01)](https://github.com/Ernyoke/certified-aws-solutions-architect-professional)
